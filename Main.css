@@ -4,41 +4,77 @@
 
 /*ABOVE THIS LINE ARE GLOBAL CLASSES*/
 
+body{
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Bahnschript-Light', sans-serif;
+}
+
 
 .Sidebar{
     float: left;
-    width: 2%;
-    border: 1px solid red;
+    /*width: 2%;*/
     box-sizing: border-box;
 }
 
 
 .Navbar{
     float: left;
-    width: 97%;
-    border: 1px solid blue;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: #232323;
     box-sizing: border-box;
+}
+
+.Navbar > div{
+    /*background-color: aqua;*/
+    padding: 2%;
 }
 
 .A{
     float: left;
     width: 10%;
-    border: 1px solid black;
     box-sizing: border-box;
-    color: red;
-    background-color: black;
+    background-color: #232323;
 }
 
 .B{
     float: left;
+    background-color: #232323;
     width: 80%;
-    border: 1px solid black;
     box-sizing: border-box;
 }
 
 .C{
     float: left;
+    background-color: #232323;
     width: 10%;
-    border: 1px solid black;
     box-sizing: border-box;
+}
+
+.sidebar-extended{
+    position: absolute;
+    display: flex;
+    background-color: #232323;
+    width: 10%;
+    height: 100%;
+    left: 0;
+    top: 10%;
+}
+
+.sidebar-extended > span{
+    background-color: #494949;
+    height: 1%;
+    width: 10%;
+    position: relative;
+    display: block;
+}
+
+.sidebar-extended ul li a{
+    color: #fff;
+    width: 30px;
+    display: inline-block;
 }
