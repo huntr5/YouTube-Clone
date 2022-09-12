@@ -1,0 +1,44 @@
+.clr{
+    clear:both;
+}
+
+/*ABOVE THIS LINE ARE GLOBAL CLASSES*/
+
+
+.Sidebar{
+    float: left;
+    width: 2%;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+
+.Navbar{
+    float: left;
+    width: 97%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.A{
+    float: left;
+    width: 10%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: red;
+    background-color: black;
+}
+
+.B{
+    float: left;
+    width: 80%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.C{
+    float: left;
+    width: 10%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
