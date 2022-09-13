@@ -46,11 +46,11 @@ body{
 */
 .sidebar-extended ul li a{
     color: #fff;
-    width: 90%;
+    width: 79%;
+    display: flex;
 }
 
 .sidebar-extended li{
-    color: #fff;
     padding: 0;
     text-align-last: left;
 }
@@ -62,24 +62,25 @@ ul{
 .sidebar-extended a{
     background-color: #232323;
     color: white;
-    padding: 14px 25px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
 }
 
 .sidebar-extended a:hover{
     background-color: #494949;
     color: white;
-    padding: 14px 25px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
 }
+
 .third-part span{
     background-color: #232323;
     color: grey;
-    padding: 14px 8px;
+    padding: 10px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -100,7 +101,7 @@ ul{
 .second-part{
     position: absolute;
     display: flex;
-    top: 22%;
+    top: 21%;
     left: 0;
     background-color: #232323;
     width: 100%;
@@ -110,7 +111,7 @@ ul{
 .third-part{
     position: absolute;
     display: flex;
-    top: 58%;
+    top: 52%;
     left: 0;
     background-color: #232323;
     width: 100%;
@@ -210,3 +211,72 @@ ul{
 .profile img{
     border-radius: 50%;
 }
+
+.sidebar-extended{
+    position: absolute;
+    display: flex;
+    background-color: #232323;
+    width: 10%;
+    height: 100%;
+    left: 0;
+    top: 6%;
+    font-size: 16px;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: #5a5a5a;
+    scrollbar-gutter: #1c1c1c;
+}
+
+.sidebar-extended::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #232323;
+    box-shadow: inset 0 0 6px #232323;
+    border-radius: 10px;
+    background-color: #232323;
+}
+.sidebar-extended::-webkit-scrollbar {
+    width: 8px;
+    background-color: #232323;
+}
+.sidebar-extended::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #232323;
+    box-shadow: inset 0 0 6px #232323;
+    background-color: #5a5a5a;
+}
+
+/*
+.sidebar-extended > span{
+    background-color: #494949;
+    height: 1%;
+    width: 10%;
+    position: relative;
+    display: block;
+}
+*/
+
+.sidebar-extended img{
+    align-self: center;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.sidebar-extended svg{
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.sidebar-extended svg:hover{
+    border-right: 0px;
+}
+
+.sidebar-extended span{
+    margin-top: 2px;
+}
+
+
+
+
