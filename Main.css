@@ -137,8 +137,8 @@ body{
 */
 .sidebar-extended ul li a{
     color: #fff;
-    width: 90%;
-    display: inline-block;
+    width: 79%;
+    display: flex;
 }
 
 .sidebar-extended li{
@@ -148,6 +148,24 @@ body{
 
 ul{
     padding: 0;
+}
+
+.sidebar-extended img{
+    align-self: center;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.sidebar-extended svg{
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.sidebar-extended span{
+    margin-top: 2px;
 }
 
 .sidebar-extended a{
