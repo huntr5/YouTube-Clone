@@ -12,6 +12,8 @@ body{
 
 /*ABOVE THIS LINE ARE GLOBAL CLASSES*/
 
+/*SIDEBAR EDITS*/
+
 
 .Sidebar{
     position: relative;
@@ -21,29 +23,24 @@ body{
 }
 
 
-
+/*SIDEBAR-EXTENDED EDITS*/
 
 .sidebar-extended{
     position: absolute;
     display: flex;
     background-color: #232323;
     width: 10%;
-    height: 100%;
+    height: 94%;
     left: 0;
-    top: 6.17%;
+    top: 6%;
     font-size: 16px;
     padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: #5a5a5a;
+    scrollbar-gutter: #1c1c1c;
 }
-/*
-.sidebar-extended > span{
-    background-color: #494949;
-    height: 1%;
-    width: 10%;
-    position: relative;
-    display: block;
-}
-  ^^deleted span in sidebar-extended so commented out :)
-*/
+
 .sidebar-extended ul li a{
     color: #fff;
     width: 79%;
@@ -76,6 +73,48 @@ ul{
     text-decoration: none;
     display: flex;
 }
+
+
+.sidebar-extended::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #232323;
+    box-shadow: inset 0 0 6px #232323;
+    border-radius: 10px;
+    background-color: #232323;
+}
+.sidebar-extended::-webkit-scrollbar {
+    width: 8px;
+    background-color: #232323;
+}
+.sidebar-extended::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #232323;
+    box-shadow: inset 0 0 6px #232323;
+    background-color: #5a5a5a;
+}
+
+.sidebar-extended img{
+    align-self: center;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.sidebar-extended svg{
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.sidebar-extended svg:hover{
+    border-right: 0px;
+}
+
+.sidebar-extended span{
+    margin-top: 2px;
+}
+
+/*PARTS OF SIDEBAR-EXTENDED*/
 
 .third-part span{
     background-color: #232323;
@@ -118,9 +157,13 @@ ul{
     border-top: 1px solid #ffffff1a;
 }
 
-/*SIDEBAR EDITS(mostly huntr5) ABOVE*/
-/*~~~~~~~~~~~~~~~~~~~~~NOTE~~~~~~~~~~~~~~~~*/
-/*NAVBAR EDITS(mostly Titan) BELOW*/
+
+
+
+
+
+
+/*NAVBAR EDITS*/
 
 
 .Navbar{
@@ -213,70 +256,7 @@ ul{
     border-radius: 50%;
 }
 
-.sidebar-extended{
-    position: absolute;
-    display: flex;
-    background-color: #232323;
-    width: 10%;
-    height: 94%;
-    left: 0;
-    top: 6%;
-    font-size: 16px;
-    padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    scrollbar-color: #5a5a5a;
-    scrollbar-gutter: #1c1c1c;
-}
 
-.sidebar-extended::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px #232323;
-    box-shadow: inset 0 0 6px #232323;
-    border-radius: 10px;
-    background-color: #232323;
-}
-.sidebar-extended::-webkit-scrollbar {
-    width: 8px;
-    background-color: #232323;
-}
-.sidebar-extended::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px #232323;
-    box-shadow: inset 0 0 6px #232323;
-    background-color: #5a5a5a;
-}
-
-/*
-.sidebar-extended > span{
-    background-color: #494949;
-    height: 1%;
-    width: 10%;
-    position: relative;
-    display: block;
-}
-*/
-
-.sidebar-extended img{
-    align-self: center;
-    padding: 0px;
-    margin-right: 15px;
-}
-
-.sidebar-extended svg{
-    height: 24px;
-    width: 24px;
-    align-self: center;
-    padding: 0px;
-    margin-right: 15px;
-}
-
-.sidebar-extended svg:hover{
-    border-right: 0px;
-}
-
-.sidebar-extended span{
-    margin-top: 2px;
-}
 
 
 
