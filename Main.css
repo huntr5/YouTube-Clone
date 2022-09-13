@@ -274,7 +274,7 @@ ul{
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
 }
 
 .sidebar-extended a:hover{
@@ -283,5 +283,5 @@ ul{
     /*padding: 14px 25px;*/
     text-align: center;
     text-decoration: none;
-    /*display: inline-block;*/
+    display: flex;
 }
