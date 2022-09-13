@@ -164,6 +164,10 @@ ul{
     margin-right: 15px;
 }
 
+.sidebar-extended svg:hover{
+    border-right: 0px;
+}
+
 .sidebar-extended span{
     margin-top: 2px;
 }
@@ -180,8 +184,8 @@ ul{
 .sidebar-extended a:hover{
     background-color: #494949;
     color: white;
-    padding: 14px 25px;
+    /*padding: 14px 25px;*/
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /*display: inline-block;*/
 }
