@@ -7,7 +7,7 @@ body{
     margin: 0;
     background-color: #111;
     color: #fff;
-    font-family: 'Tw Cen MT', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*ABOVE THIS LINE ARE GLOBAL CLASSES*/
@@ -101,7 +101,7 @@ ul{
 .second-part{
     position: absolute;
     display: flex;
-    top: 21%;
+    top: 23%;
     left: 0;
     background-color: #232323;
     width: 100%;
@@ -111,7 +111,7 @@ ul{
 .third-part{
     position: absolute;
     display: flex;
-    top: 52%;
+    top: 55%;
     left: 0;
     background-color: #232323;
     width: 100%;
@@ -138,7 +138,7 @@ ul{
     width: 10%;
     box-sizing: border-box;
     background-color: #232323;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .header-logo img{
@@ -147,8 +147,9 @@ ul{
 
 .header-logo span{
     align-self: center;
-    font-size: 20px;
-    padding-left: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 6px;
 }
 
 .search-bar{
