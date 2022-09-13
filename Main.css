@@ -2,7 +2,6 @@
     clear:both;
 }
 
-/*ABOVE THIS LINE ARE GLOBAL CLASSES*/
 
 body{
     margin: 0;
@@ -11,29 +10,127 @@ body{
     font-family: 'Tw Cen MT', sans-serif;
 }
 
+/*ABOVE THIS LINE ARE GLOBAL CLASSES*/
+
 
 .Sidebar{
-    float: left;
-    /*width: 2%;*/
-    box-sizing: border-box;
+    position: relative;
+    display: flex;
     align-self: center;
     margin-left: 20px;
 }
 
+
+
+
+.sidebar-extended{
+    position: absolute;
+    display: flex;
+    background-color: #232323;
+    width: 10%;
+    height: 100%;
+    left: 0;
+    top: 6.17%;
+    font-size: 16px;
+    padding: 0;
+}
+/*
+.sidebar-extended > span{
+    background-color: #494949;
+    height: 1%;
+    width: 10%;
+    position: relative;
+    display: block;
+}
+  ^^deleted span in sidebar-extended so commented out :)
+*/
+.sidebar-extended ul li a{
+    color: #fff;
+    width: 90%;
+}
+
+.sidebar-extended li{
+    color: #fff;
+    padding: 0;
+    text-align-last: left;
+}
+
+ul{
+    padding: 0;
+}
+
+.sidebar-extended a{
+    background-color: #232323;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sidebar-extended a:hover{
+    background-color: #494949;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.third-part span{
+    background-color: #232323;
+    color: grey;
+    padding: 14px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.first-part{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #232323;
+    width: 100%;
+    border-top: 1px solid #ffffff1a;
+}
+
+
+.second-part{
+    position: absolute;
+    display: flex;
+    top: 22%;
+    left: 0;
+    background-color: #232323;
+    width: 100%;
+    border-top: 1px solid #ffffff1a;
+}
+
+.third-part{
+    position: absolute;
+    display: flex;
+    top: 58%;
+    left: 0;
+    background-color: #232323;
+    width: 100%;
+    border-top: 1px solid #ffffff1a;
+}
+
+/*SIDEBAR EDITS(mostly huntr5) ABOVE*/
+/*~~~~~~~~~~~~~~~~~~~~~NOTE~~~~~~~~~~~~~~~~*/
+/*NAVBAR EDITS(mostly Titan) BELOW*/
+
+
 .Navbar{
-    float: left;
     display: flex;
     position: absolute;
     width: 100%;
     height: 6%;
     background-color: #232323;
-    box-sizing: border-box;
 }
-/*
-.Navbar > div{
-    background-color: aqua;
-}
-*/
+
+
 .header-logo{
     display: flex;
     float: left;
@@ -113,7 +210,6 @@ body{
 .profile img{
     border-radius: 50%;
 }
-
 
 .sidebar-extended{
     position: absolute;
