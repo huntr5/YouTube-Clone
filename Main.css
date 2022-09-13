@@ -25,22 +25,22 @@ body{
     display: flex;
     position: absolute;
     width: 100%;
-    height: 10%;
+    height: 6%;
     background-color: #232323;
     box-sizing: border-box;
 }
-
+/*
 .Navbar > div{
-    /*background-color: aqua;*/
-    padding: 1%;
+    background-color: aqua;
 }
-
+*/
 .header-logo{
     display: flex;
     float: left;
     width: 10%;
     box-sizing: border-box;
     background-color: #232323;
+    margin-left: 20px;
 }
 
 .header-logo img{
@@ -122,11 +122,11 @@ body{
     width: 10%;
     height: 100%;
     left: 0;
-    top: 10%;
-    font-size: 22px;
-    padding: 5px;
+    top: 6%;
+    font-size: 16px;
+    padding: 0;
 }
-
+/*
 .sidebar-extended > span{
     background-color: #494949;
     height: 1%;
@@ -134,19 +134,20 @@ body{
     position: relative;
     display: block;
 }
-
+*/
 .sidebar-extended ul li a{
     color: #fff;
-    width: 65%;
+    width: 90%;
     display: inline-block;
 }
 
 .sidebar-extended li{
-    padding: 5px;
+    padding: 0;
+    text-align-last: left;
 }
 
 ul{
-    padding: 1%;
+    padding: 0;
 }
 
 .sidebar-extended a{
